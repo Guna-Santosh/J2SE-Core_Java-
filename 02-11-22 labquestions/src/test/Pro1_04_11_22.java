@@ -18,5 +18,4 @@ public class Pro1_04_11_22
 		Pro1_04_11_22 sp=new Pro1_04_11_22();
 		System.out.println(sp.m1("hello", "java"));
 	}
-
 }

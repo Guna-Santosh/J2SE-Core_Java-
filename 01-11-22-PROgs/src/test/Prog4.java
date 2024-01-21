@@ -1,9 +1,7 @@
 package test;
-
 public class Prog4 {
 	    public static  boolean IsPrime(int a) 
 	    {
-	    	   
 	    	 if(a<2)
 	    	 	 return false;
 	    	 for(int i=2;i<a/2;i++)
@@ -22,7 +20,5 @@ public class Prog4 {
 		 else {
 			  System.out.println("the num is not prime");
 		 }
-
 	}
-
 }
