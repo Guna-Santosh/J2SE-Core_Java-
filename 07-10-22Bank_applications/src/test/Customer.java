@@ -22,36 +22,32 @@ A tester class BankTester with the main method is given to you.
  Use this class to test your solution.
 */
 package test;
-public class Customer 
-{
-   String firstname,lastname;
 
-public String getFirstname() {
-	return firstname;
-}
+public class Customer {
+	String firstname, lastname;
 
-public void setFirstname(String firstname) {
-	this.firstname = firstname;
-}
+	public Customer() {
+	}
 
-public String getLastname() {
-	return lastname;
-}
+	public Customer(String firstname, String lastname) {
+		this.firstname = firstname;
+		this.lastname = lastname;
+	}
 
-public void setLastname(String lastname) {
-	this.lastname = lastname;
-}
+	public String getFirstname() {
+		return firstname;
+	}
 
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
 
+	public String getLastname() {
+		return lastname;
+	}
 
-public Customer() {
-}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
 
-public Customer(String firstname, String lastname) {
-	this.firstname = firstname;
-	this.lastname = lastname;
-}
-   
-   
-   
 }
