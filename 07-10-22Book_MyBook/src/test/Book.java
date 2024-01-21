@@ -33,19 +33,14 @@ A class Testing is given to you with a main method.
 Use this class to test your solution's classes and methods.
 */
 package test;
-public abstract class Book {
-       String title;
-       
-       public  abstract void  setTitle(String title);
 
-	    public String getTitle() {
+public abstract class Book {
+	String title;
+
+	public abstract void setTitle(String title);
+
+	public String getTitle() {
 		return title;
 	}
 
-	
-	
-	
-	
-	
-	
 }
