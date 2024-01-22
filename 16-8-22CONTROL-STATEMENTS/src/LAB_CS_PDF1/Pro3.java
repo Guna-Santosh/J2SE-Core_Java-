@@ -12,29 +12,27 @@ If the given numbers are positive, return the least number.*/
 
 package LAB_CS_PDF1;
 
-public class Pro3
-{
-	public int  getGreatest(int a,int b)
-	{
-		if(a<0||b<0)
+public class Pro3 {
+	public int getGreatest(int a, int b) {
+		if (a < 0 || b < 0)
 			return -1;
-		
-		else if(a==0||b==0)
+
+		else if (a == 0 || b == 0)
 			return 0;
-		
+
 		else {
-			if(a<b)
+			if (a < b)
 				return a;
 			else
 				return b;
 		}
-		
-			//System.out.println("greatest");
+
+		// System.out.println("greatest");
 	}
-	   public static void main(String[] args)
-	   {
-		Pro3 aobj=new Pro3();
-		System.out.println(aobj.getGreatest(5,9));
-	   }
+
+	public static void main(String[] args) {
+		Pro3 aobj = new Pro3();
+		System.out.println(aobj.getGreatest(5, 9));
+	}
 
 }
