@@ -11,20 +11,21 @@ If the given number is negative or zero, return -1.
 If the given number is even, return square of the number.
 If the given number is odd, return cube of the given number.*/
 package LAB_CS_PDF1;
-public class Pro7 
-{   int p;
-	public int calculate(int a)
-	{
-	if(a<=0)
-		return -1;
-	else if(a%2==0)
-		return a*a;
-	else 
-		return a*a*a;
+
+public class Pro7 {
+	int p;
+
+	public int calculate(int a) {
+		if (a <= 0)
+			return -1;
+		else if (a % 2 == 0)
+			return a * a;
+		else
+			return a * a * a;
 	}
-	public static void main(String[] args)
-	{
-	Pro7 obj=new Pro7();
-	System.out.println(obj.calculate(0));
+
+	public static void main(String[] args) {
+		Pro7 obj = new Pro7();
+		System.out.println(obj.calculate(0));
 	}
 }
