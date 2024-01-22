@@ -21,21 +21,20 @@ If the given number is even, return the same number.
 If the given number is odd, return the next multiple of 10.*/
 
 package LAB_CS_PDF1;
-public class Pro4 
-{	
-	public int oddround(int a)
-	{
-	if (a<=0)
-		return -2;
-	else if(a%2==0)
-		return a;
-	else 
-		return (a/10+1)*10;
-	
+
+public class Pro4 {
+	public int oddround(int a) {
+		if (a <= 0)
+			return -2;
+		else if (a % 2 == 0)
+			return a;
+		else
+			return (a / 10 + 1) * 10;
+
 	}
+
 	public static void main(String[] args) {
-		Pro4 obj=new Pro4();
+		Pro4 obj = new Pro4();
 		System.out.println(obj.oddround(55));
 	}
 }
-	

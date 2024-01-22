@@ -12,23 +12,23 @@ If the given number is negative or zero, return "Invalid Input"
 If the given number is even, return "Even"
 If the given number is odd, return "Odd"*/
 package LAB_CS_PDF1;
+
 public class Pro6 {
- String evenorodd(int a)
-{
-  if(a==0)
-     return "invalid";	
-  else if(a%2==0)
-				//System.out.println("even");
-     return "even";			 
-  else if(a%2==1)//System.out.println("odd");
-	 return "odd";		
-  else			//System.out.println("invalid");
-	 return "invalid"; 
-					//System.out.println("greatest");
-		}
-public static void main(String[] args)
-{
-   Pro6 aobj=new Pro6();
- System.out.println(aobj.evenorodd(-3));
- }
+	String evenorodd(int a) {
+		if (a == 0)
+			return "invalid";
+		else if (a % 2 == 0)
+			// System.out.println("even");
+			return "even";
+		else if (a % 2 == 1)// System.out.println("odd");
+			return "odd";
+		else // System.out.println("invalid");
+			return "invalid";
+		// System.out.println("greatest");
+	}
+
+	public static void main(String[] args) {
+		Pro6 aobj = new Pro6();
+		System.out.println(aobj.evenorodd(-3));
+	}
 }
