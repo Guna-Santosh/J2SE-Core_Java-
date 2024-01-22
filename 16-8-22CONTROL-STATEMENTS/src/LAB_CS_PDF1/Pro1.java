@@ -8,30 +8,24 @@ Example, if x = 22, return 1. if x = 35, return 0*/
 package LAB_CS_PDF1;
 
 public class Pro1 {
-	
-     String iseven(int a)
-	{
-		if(a<=0)
+
+	String iseven(int a) {
+		if (a <= 0)
 			return "zero";
-	else if(a%2==0)
+		else if (a % 2 == 0)
 			return "even";
 		else
 			return "odd";
-	}//end of iseven method
-	  
-	
-	public static void main(String[] args)
-	   {
+	}// end of iseven method
+
+	public static void main(String[] args) {
 		System.out.println("ENTER NUMBER");
-		java.util.Scanner s=new java.util.Scanner(System.in);
-		int a=s.nextInt();
-		
-		Pro1 aobj=new Pro1();//object create
-		
-		
-		
-		
+		java.util.Scanner s = new java.util.Scanner(System.in);
+		int a = s.nextInt();
+
+		Pro1 aobj = new Pro1();// object create
+
 		System.out.println(aobj.iseven(a));
 		s.close();
-	   }//end of main 
-}//end of class
+	}// end of main
+}// end of class
