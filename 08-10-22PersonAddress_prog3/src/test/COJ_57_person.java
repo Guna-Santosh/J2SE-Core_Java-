@@ -22,22 +22,23 @@ class in order to create an object without address.
 A class COJ_57_PersonAddress is given with main() 
 where you can create various objects and test them.
 
-*/package test;
+*/
+package test;
 
-public class COJ_57_person 
-{
-        int age;String name;COJ_57_Address m;
+public class COJ_57_person {
+	int age;
+	String name;
+	COJ_57_Address m;
 
-		    public COJ_57_person(int age, String name,COJ_57_Address m) {
-			this.age = age;
-			this.name = name;
-			this.m=m;
-		}
+	public COJ_57_person(int age, String name, COJ_57_Address m) {
+		this.age = age;
+		this.name = name;
+		this.m = m;
+	}
 
-		@Override
-		public String toString() {
-			return "COJ_57_person [age=" + age + ", name=" + name + ", ads=" + m + "]";
-		} 
-		
-        
+	@Override
+	public String toString() {
+		return "COJ_57_person [age=" + age + ", name=" + name + ", ads=" + m + "]";
+	}
+
 }
