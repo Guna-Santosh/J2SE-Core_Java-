@@ -20,27 +20,25 @@
 */
 package test;
 
-public class FulltimeEmployee extends Employee
-{    private double bonus;
-	 private double salary;
-	 double computerSalary() 
-	 {
-		 double k=salary+bonus;
-		 return k;
- 	 }
-	public FulltimeEmployee(double salary,int id,String name)
-	{
+public class FulltimeEmployee extends Employee {
+	private double bonus;
+	private double salary;
+
+	double computerSalary() {
+		double k = salary + bonus;
+		return k;
+	}
+
+	public FulltimeEmployee(double salary, int id, String name) {
 		this.salary = salary;
 	}
+
 	public FulltimeEmployee() {
 	}
+
 	@Override
 	public String toString() {
 		return "FulltimeEmployee [bonus=" + bonus + ", salary=" + salary + ", id=" + id + ", name=" + name + "]";
 	}
-	 
-	 
-	 
-	 
-	 
+
 }
